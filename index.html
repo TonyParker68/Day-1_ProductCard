@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product card</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- link icon fontawesome -->
+    <!-- <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- theory:
+        - snipet
+        - cu phap viet bang BEM __(gach duoi 2 lan)
+        - thiet ke bao quat tu ngoai vao trong
+        - hoc lai cach import, do fontawesome bi loi ko phai do toi import ngu
+    -->
+    <!-- .card -->
+    <div class="card">
+        <!-- .card_heart+.card_cart -->
+        <div class="card__heart">
+            <!-- <i class="fa-light fa-heart"></i> -->
+            <i class='bx bx-heart'></i>
+        </div>
+        <div class="card__cart">
+            <!-- <i class="fa-light fa-cart-shopping"></i> -->
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--  -->
+        <div class="card__img">
+            <img src="./Nike Zoom KD 12.png" alt="">
+        </div>
+        <div class="card__title">
+            Nike Zoom KD 12
+        </div>
+        <div class="card__price">
+            $99
+        </div>
+        <!--  -->
+        <div class="card__size">
+            <h3>Size:</h3>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+        </div>
+        <div class="card__color">
+            <h3>Color:</h3>
+            <span class="card__color--green"></span>
+            <span class="card__color--red"></span>
+            <span class="card__color--black"></span>
+        </div>
+        <div class="card__action">
+            <button>Buy Now</button>
+            <button>Add Cart</button>
+        </div>
+    </div>
+</body>
+</html>
